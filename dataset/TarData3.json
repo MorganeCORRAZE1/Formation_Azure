@@ -1,5 +1,5 @@
 {
-	"name": "Target3",
+	"name": "TarData3",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
