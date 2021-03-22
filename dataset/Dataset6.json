@@ -1,0 +1,27 @@
+{
+	"name": "Dataset6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "jeu6.csv"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "country;country_code;year_week;age_group;new_cases;population;rate_14_day_per_100k;source",
+				"type": "String"
+			}
+		]
+	}
+}
