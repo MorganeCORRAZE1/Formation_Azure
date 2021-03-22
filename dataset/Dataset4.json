@@ -19,7 +19,51 @@
 		},
 		"schema": [
 			{
-				"name": "country;country_code;year_week;level;region;region_name;new_cases;tests_done;population;testing_rate;positivity_rate;testing_data_source",
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "country_code",
+				"type": "String"
+			},
+			{
+				"name": "year_week",
+				"type": "String"
+			},
+			{
+				"name": "level",
+				"type": "String"
+			},
+			{
+				"name": "region",
+				"type": "String"
+			},
+			{
+				"name": "region_name",
+				"type": "String"
+			},
+			{
+				"name": "new_cases",
+				"type": "String"
+			},
+			{
+				"name": "tests_done",
+				"type": "String"
+			},
+			{
+				"name": "population",
+				"type": "String"
+			},
+			{
+				"name": "testing_rate",
+				"type": "String"
+			},
+			{
+				"name": "positivity_rate",
+				"type": "String"
+			},
+			{
+				"name": "testing_data_source",
 				"type": "String"
 			}
 		]
