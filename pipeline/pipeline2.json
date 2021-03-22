@@ -1,7 +1,7 @@
 {
 	"name": "pipeline2",
 	"properties": {
-		"description": "Jeux de données complémentaires",
+		"description": "3 jeux de données complémentaires",
 		"activities": [
 			{
 				"name": "Copy data1",
