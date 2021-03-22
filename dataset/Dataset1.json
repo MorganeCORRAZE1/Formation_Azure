@@ -13,6 +13,7 @@
 				"fileName": "jeu1.csv"
 			},
 			"columnDelimiter": ";",
+			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
