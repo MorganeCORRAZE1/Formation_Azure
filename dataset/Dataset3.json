@@ -17,11 +17,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "country;indicator;date;year_week;value;source;url",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
