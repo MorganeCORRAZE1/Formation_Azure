@@ -206,6 +206,210 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Copy data2",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "FileServerReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "YearWeekISO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "YearWeekISO",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "FirstDose",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FirstDose",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "FirstDoseRefused",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FirstDoseRefused",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "SecondDose",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SecondDose",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "UnknownDose",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "UnknownDose",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "NumberDosesReceived",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "NumberDosesReceived",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Region",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Region",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Population",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Population",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ReportingCountry",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ReportingCountry",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "TargetGroup",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "TargetGroup",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Vaccine",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Vaccine",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Denominator",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Denominator",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "SrcData2",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "TarData2",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
