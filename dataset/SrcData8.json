@@ -1,0 +1,191 @@
+{
+	"name": "SrcData8",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "jeu8.csv"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "gid",
+				"type": "String"
+			},
+			{
+				"name": "nom",
+				"type": "String"
+			},
+			{
+				"name": "arrete_pref_numero",
+				"type": "String"
+			},
+			{
+				"name": "xy_precis",
+				"type": "String"
+			},
+			{
+				"name": "id_adr",
+				"type": "String"
+			},
+			{
+				"name": "adr_num",
+				"type": "String"
+			},
+			{
+				"name": "adr_voie",
+				"type": "String"
+			},
+			{
+				"name": "com_cp",
+				"type": "String"
+			},
+			{
+				"name": "com_insee",
+				"type": "String"
+			},
+			{
+				"name": "com_nom",
+				"type": "String"
+			},
+			{
+				"name": "lat_coor1",
+				"type": "String"
+			},
+			{
+				"name": "long_coor1",
+				"type": "String"
+			},
+			{
+				"name": "structure_siren",
+				"type": "String"
+			},
+			{
+				"name": "structure_type",
+				"type": "String"
+			},
+			{
+				"name": "structure_rais",
+				"type": "String"
+			},
+			{
+				"name": "structure_num",
+				"type": "String"
+			},
+			{
+				"name": "structure_voie",
+				"type": "String"
+			},
+			{
+				"name": "structure_cp",
+				"type": "String"
+			},
+			{
+				"name": "structure_insee",
+				"type": "String"
+			},
+			{
+				"name": "structure_com",
+				"type": "String"
+			},
+			{
+				"name": "_userid_creation",
+				"type": "String"
+			},
+			{
+				"name": "_userid_modification",
+				"type": "String"
+			},
+			{
+				"name": "_edit_datemaj",
+				"type": "String"
+			},
+			{
+				"name": "lieu_accessibilite",
+				"type": "String"
+			},
+			{
+				"name": "rdv_lundi",
+				"type": "String"
+			},
+			{
+				"name": "rdv_mardi",
+				"type": "String"
+			},
+			{
+				"name": "rdv_mercredi",
+				"type": "String"
+			},
+			{
+				"name": "rdv_jeudi",
+				"type": "String"
+			},
+			{
+				"name": "rdv_vendredi",
+				"type": "String"
+			},
+			{
+				"name": "rdv_samedi",
+				"type": "String"
+			},
+			{
+				"name": "rdv_dimanche",
+				"type": "String"
+			},
+			{
+				"name": "rdv",
+				"type": "String"
+			},
+			{
+				"name": "date_fermeture",
+				"type": "String"
+			},
+			{
+				"name": "date_ouverture",
+				"type": "String"
+			},
+			{
+				"name": "rdv_site_web",
+				"type": "String"
+			},
+			{
+				"name": "rdv_tel",
+				"type": "String"
+			},
+			{
+				"name": "rdv_tel2",
+				"type": "String"
+			},
+			{
+				"name": "rdv_modalites",
+				"type": "String"
+			},
+			{
+				"name": "rdv_consultation_prevaccination",
+				"type": "String"
+			},
+			{
+				"name": "centre_svi_repondeur",
+				"type": "String"
+			},
+			{
+				"name": "centre_fermeture",
+				"type": "String"
+			},
+			{
+				"name": "reserve_professionels_sante",
+				"type": "String"
+			}
+		]
+	}
+}
