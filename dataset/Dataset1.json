@@ -12,7 +12,7 @@
 				"type": "FileServerLocation",
 				"fileName": "jeu1.csv"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
