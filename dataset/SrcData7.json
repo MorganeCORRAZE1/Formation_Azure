@@ -1,0 +1,63 @@
+{
+	"name": "SrcData7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "jeu7.csv"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "dep",
+				"type": "String"
+			},
+			{
+				"name": "sexe",
+				"type": "String"
+			},
+			{
+				"name": "jour",
+				"type": "String"
+			},
+			{
+				"name": "hosp",
+				"type": "String"
+			},
+			{
+				"name": "rea",
+				"type": "String"
+			},
+			{
+				"name": "HospConv",
+				"type": "String"
+			},
+			{
+				"name": "SSR_USLD",
+				"type": "String"
+			},
+			{
+				"name": "autres",
+				"type": "String"
+			},
+			{
+				"name": "rad",
+				"type": "String"
+			},
+			{
+				"name": "dc",
+				"type": "String"
+			}
+		]
+	}
+}
