@@ -1,5 +1,5 @@
 {
-	"name": "Dataset4",
+	"name": "SrcData4",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "FileServer1",
