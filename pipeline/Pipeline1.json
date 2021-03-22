@@ -1,6 +1,7 @@
 {
 	"name": "Pipeline1",
 	"properties": {
+		"description": "Copie des 6 premiers jdd.",
 		"activities": [
 			{
 				"name": "Copy data1",
